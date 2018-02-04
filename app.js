@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = ';';
-const TOKEN = 'NDA1ODAzMDA2MDUxODc2ODY0.DUpypQ.lWrWjmJqiOEzjTFcMPAIjJF0i8k';
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}! There are no apparent major bugs on the Tutorial Bot.`);
